@@ -1,11 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(20%,20%,20%);
+}
+
 h1 {
-  color: rgb(167, 167, 0);
+  color: rgb(209 209 65);
   background-color: #000000;
-  text-align: center;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 52px;
+  padding-left: 24px;
+}
+
+.list-container {
+  text-align: center;
+  padding: 36px 0;
+  background-color: rgb(101 101 101);
+  width: 500px;
+  margin: 60px auto;
+}
+
+.list {
+  font-family: 'Arial', sans-serif;
+}
+
+.list li {
+  list-style: none;
 }
 
 .link {
-  color: rgb(120, 120, 0);
+  color: #000000;
+  background-color: rgb(209 209 65);
+  display: block;
+  padding: 40px 24px;
+  font-size: 20px;
+}
+
+.link.second {
+  color: rgb(209 209 65);
+  background-color: #000000;
+}
+
+.link.first,
+.link.second {
+  margin-bottom: 36px;
 }
